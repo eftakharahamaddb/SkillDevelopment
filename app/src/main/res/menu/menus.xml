@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/manu_1"
+        android:orderInCategory="101"
+        android:title="Menu1"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_2"
+        android:orderInCategory="102"
+        android:title="Menu_2"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_3"
+        android:orderInCategory="103"
+        android:title="Menu_3"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/next"
+        android:icon="@drawable/next"
+        android:orderInCategory="100"
+        android:title="Next"
+        app:showAsAction="always" />
+</menu>
