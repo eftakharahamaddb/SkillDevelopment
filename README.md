@@ -15,11 +15,11 @@ To use the app bar we ..
 
 5) Now In this activity we setup same as toolbar and 'ActionBarDrawerToggle' and this manages the all state of open drawer and close drawer. below is the code of toggle..
 
-ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+<addr>ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-
+<addr>
 
 5) Now to setup the drawer content we can use the NavigationView and setting the menus , it is the best way to manage the drawer...but if we want it according our own recycler view or expandable recycler view we can set it.
 
