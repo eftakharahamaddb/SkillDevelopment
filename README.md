@@ -11,4 +11,15 @@ To use the app bar we ..
 
 .....In above we can also add the collapsing tool bar according to nested scroll behavious, please see the 'AppBarCordinatorActivity' for the collapsable app bar.
 
+4) For Drawer option we simply keep DrwerLayout on top of every layout, make two layout inside of it, one for drawer items and second for content items.. now as content items layout you can include your cordinator layout of constraint layout, wheteever u want according to need.
+
+5) Now In this activity we setup same as toolbar and 'ActionBarDrawerToggle' and this manages the all state of open drawer and close drawer. below is the code of toggle..
+
+ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+
+5) Now to setup the drawer content we can use the NavigationView and setting the menus , it is the best way to manage the drawer...but if we want it according our own recycler view or expandable recycler view we can set it.
 
