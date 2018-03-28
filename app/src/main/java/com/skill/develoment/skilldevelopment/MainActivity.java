@@ -1,6 +1,7 @@
 package com.skill.develoment.skilldevelopment;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -38,7 +39,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int itemId = item.getItemId();
-
+        switch (itemId) {
+            case R.id.next:
+                startActivity(new Intent(this, AppBarCordinatorActivity.class));
+        }
         return super.onOptionsItemSelected(item);
     }
 }
