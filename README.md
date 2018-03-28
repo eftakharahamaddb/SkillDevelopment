@@ -1,4 +1,62 @@
 # SkillDevelopment
+Guideleines of Text writing
+``
+ 1) Using emoji
+ You can add emoji to your writing by typing :EMOJICODE:
+ @octocat :+1: This PR looks great - it's ready to merge! :shipit:
+ https://www.webpagefx.com/tools/emoji-cheat-sheet/
+ 
+ 2) Task lists
+ To create a task list, preface list items with [ ]. To mark a task as complete, use [x]
+ 
+ 3) Lists
+ You can make an unordered list by preceding one or more lines of text with - or *.
+	- George Washington
+	- John Adams
+	- Thomas Jefferson
+ 
+ 4) Nested List
+ You can create a nested list by indenting one or more list items below another item.
+ 1. First list item
+   - First nested list item
+     - Second nested list item
+ 
+ 5) Relative links
+ You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
+ [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+ 
+ 6 Section links
+ You can link directly to a section in a rendered file by hovering over the section heading to expose the link:
+ 
+ 7) Links
+ You can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( ). You can also use the keyboard shortcut command + k to create a link.
+ 
+ 8) Quoting code
+ You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted.
+ Use `git status` to list all new or modified files that haven't yet been committed.
+ 
+ 9) Quoting text
+ You can quote text with a >.
+ 
+ In the words of Abraham Lincoln:
+ 
+> Pardon my French
+
+10) Styling text
+
+Bold				**
+Italic				*
+Strikethrough 		~~
+Bold and italic		** ** and _ _
+
+
+11) Headings
+# The largest heading
+## The second largest heading
+###### The smallest heading
+
+
+``
 Starting skill Development
 ## Material Design 
 ### ToolBar, ActionBar, Menu, NavigationDrawer... :
