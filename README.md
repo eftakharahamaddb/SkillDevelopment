@@ -5,7 +5,7 @@ Starting skill Development
 Simply old time we were using ActionBar in our android app to maintain the navigationm but now days it is deprecated and a this term is replaced with AppBar.
 
 To use the app bar we ..
-1) Always use Any them of AppCompact with Theme..... . NoActionBar. // Because we will stup our own app bar using ToolBar.
+1) Always use Any them of AppCompact with Theme..... . NoActionBar. // Because we will setup our own app bar using ToolBar.
 2) Craeate TollBar into seprate file, so that we can re use this toll bar according to our theme colors e..etc.
 3) We can inflate the menu in that app bar, setup and enble home button, navigate to current to previuos activity using this button.
 
@@ -15,10 +15,10 @@ To use the app bar we ..
 
 5) Now In this activity we setup same as toolbar and 'ActionBarDrawerToggle' and this manages the all state of open drawer and close drawer. below is the code of toggle..
 
-<ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+_ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
-        toggle.syncState();>
+        toggle.syncState()_;
 
 6) Now to setup the drawer content we can use the NavigationView and setting the menus , it is the best way to manage the drawer...but if we want it according our own recycler view or expandable recycler view we can set it.
 
