@@ -27,4 +27,7 @@ ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
 
 6) Now to setup the drawer content we can use the NavigationView and setting the menus , it is the best way to manage the drawer...but if we want it according our own recycler view or expandable recycler view we can set it.
 
-#### Material Design [SAMPLE EXMAPLE](https://github.com/saulmm/Android-Material-Examples).
+Material Design [Sample 1](https://github.com/saulmm/Android-Material-Examples).
+Material Design [Sample 2](https://github.com/rey5137/material).
+Material Design [Sample 3](https://github.com/wasabeef/awesome-android-ui).
+
