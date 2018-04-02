@@ -9,5 +9,3 @@ Read here at
 |Annotations    |[Annotations](https://docs.oracle.com/javase/tutorial/java/annotations/)|
 |Reflections    |[Reflections](https://docs.oracle.com/javase/tutorial/reflect/)|
 
-This is the best<br> idea for the final decision to be checked
-<H1> Here is my first Text</H1> asdksadk <b>sajkdajkda</b> kjsajkdkjas <i>sadjhsahjdasjh<i>
