@@ -31,3 +31,14 @@ Material Design [Sample 1](https://github.com/saulmm/Android-Material-Examples).
 Material Design [Sample 2](https://github.com/rey5137/material).
 Material Design [Sample 3](https://github.com/wasabeef/awesome-android-ui).
 
+## Android Development Architecture Patterns
+Architecture pattern [Here](https://developer.android.com/topic/libraries/architecture/guide.html#common_architectural_principles).
+
+Generally for development of android we uses Activities, Fragment, Services, Content provider and Broadcast receiver...
+
+For example, consider what happens when you share a photo in your favorite social network app. The app triggers a camera intent from which the Android OS launches a camera app to handle the request. At this point, the user leaves the social network app but their experience is seamless. The camera app, in turn, may trigger other intents, like launching the file chooser, which may launch another app. Eventually the user comes back to the social networking app and shares the photo. Also, the user could be interrupted by a phone call at any point in this process and come back to share the photo after finishing the phone call.
+
+The point of all this is that your app components can be launched individually and out-of-order, and can be destroyed at anytime by the user or the system. Because app components are ephemeral and their lifecycle (when they are created and destroyed) are not under your control, you should not store any app data or state in your app components and your app components should not depend on each other.
+
+
+
