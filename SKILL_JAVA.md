@@ -8,6 +8,6 @@ Read here at
 |---------------|-----------|
 |Annotations    |[Annotations](https://docs.oracle.com/javase/tutorial/java/annotations/)|
 |Reflections    |[Reflections](https://docs.oracle.com/javase/tutorial/reflect/)|
-|Lambda Expressions|https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html|
+|Lambda Expressions|[Lamda Expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)|
 
 
