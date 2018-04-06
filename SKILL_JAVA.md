@@ -6,6 +6,7 @@ Read here at
 
 |Topics         | Links     |
 |---------------|-----------|
+|Java Architecture |[Architecture](https://dzone.com/articles/jvm-architecture-explained)|
 |Annotations    |[Annotations](https://docs.oracle.com/javase/tutorial/java/annotations/)|
 |Reflections    |[Reflections](https://docs.oracle.com/javase/tutorial/reflect/)|
 |Lambda Expressions|[Lamda Expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)|
