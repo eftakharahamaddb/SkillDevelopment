@@ -41,4 +41,3 @@ For example, consider what happens when you share a photo in your favorite socia
 The point of all this is that your app components can be launched individually and out-of-order, and can be destroyed at anytime by the user or the system. Because app components are ephemeral and their lifecycle (when they are created and destroyed) are not under your control, you should not store any app data or state in your app components and your app components should not depend on each other.
 
 
-
