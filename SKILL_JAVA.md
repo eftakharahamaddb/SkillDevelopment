@@ -10,7 +10,11 @@ Read here at
 |Annotations    |[Annotations](https://docs.oracle.com/javase/tutorial/java/annotations/)|
 |Reflections    |[Reflections](https://docs.oracle.com/javase/tutorial/reflect/)|
 |Lambda Expressions|[Lamda Expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)|
-|## JAVA 8 Features:|### Any API Level:<br>
+
+
+<tr>
+  <td>JAVA 8 Features:</td>
+  <td>Any API Level
 Default and static interface methods<br>
 Repeating annotations<br>
 Type Annotations<br>
@@ -23,7 +27,7 @@ AnnotatedElement.getAnnotationsByType(Class)<br>
 java.util.stream<br>
 java.lang.FunctionalInterface<br>
 java.lang.reflect.Method.isDefault()<br>
-java.util.function<br> |
+java.util.function<br></td></tr> |
 
 
 
