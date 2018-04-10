@@ -14,20 +14,22 @@ Read here at
 <table style="width:100%">
 <tr>
   <td>JAVA 8 Features:</td>
-  <td>Any API Level
-Default and static interface methods<br>
-Repeating annotations<br>
-Type Annotations<br>
-Method References<br>
-Lambda expressions<br>
-
-### API Level 24 and Hiegher:<br>
-java.lang.annotation.Repeatable<br>
-AnnotatedElement.getAnnotationsByType(Class)<br>
-java.util.stream<br>
-java.lang.FunctionalInterface<br>
-java.lang.reflect.Method.isDefault()<br>
-java.util.function<br></td></tr></table>
+  <td><b>Any API Level</b><br>
+    <ul>
+<li>Default and static interface methods</li>
+<li>Repeating annotations</li>
+<li>Type Annotations</li>
+<li>Method References</li>
+<li>Lambda expressions</li>
+</ul><br>
+<b> API Level 24 and Hiegher:</b>
+    <ul>
+<li>java.lang.annotation.Repeatable</li>
+<li>AnnotatedElement.getAnnotationsByType(Class)</li>
+<li>java.util.stream</li>
+<li>java.lang.FunctionalInterface</li>
+<li>java.lang.reflect.Method.isDefault()</li>
+<li>java.util.function</li></ul></td></tr></table>
 
 
 
