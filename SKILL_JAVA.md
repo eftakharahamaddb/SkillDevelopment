@@ -11,7 +11,7 @@ Read here at
 |Reflections    |[Reflections](https://docs.oracle.com/javase/tutorial/reflect/)|
 |Lambda Expressions|[Lamda Expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)|
 
-
+<table style="width:100%">
 <tr>
   <td>JAVA 8 Features:</td>
   <td>Any API Level
@@ -27,7 +27,7 @@ AnnotatedElement.getAnnotationsByType(Class)<br>
 java.util.stream<br>
 java.lang.FunctionalInterface<br>
 java.lang.reflect.Method.isDefault()<br>
-java.util.function<br></td></tr> |
+java.util.function<br></td></tr></table>
 
 
 
