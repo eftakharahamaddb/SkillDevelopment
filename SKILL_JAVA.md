@@ -13,7 +13,7 @@ Read here at
 
 <table style="width:100%">
 <tr>
-  <td>[JAVA 8 Features](https://developer.android.com/studio/write/java8-support.html#supported_features)<br></td>
+  <td><a href="(https://developer.android.com/studio/write/java8-support.html#supported_features)">JAVA 8 Features</a><br></td>
   <td><b>Any API Level</b><br>
     <ul>
 <li>Default and static interface methods</li>
