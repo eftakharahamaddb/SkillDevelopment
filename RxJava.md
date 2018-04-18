@@ -1,10 +1,10 @@
 # RxJava
 
 ### Sources :
-**Observable \<T\> **    
+**Observable\<T\>**    
   1) 0 or n items
   2) Complete or error<br>
   
-**Flowable \<T\> **
+**Flowable\<T\>**
   1) 0 or n items
   2) Complete or error
