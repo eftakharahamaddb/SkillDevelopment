@@ -12,5 +12,5 @@
   3) Has backpressure
   
   >Backpressure Means:It allows to controle how fast source can be emits data.
+  ![alt text](https://github.com/eftakharahamaddb/SkillDevelopment/blob/master/images/observable_vs_flowable.JPG)
   
-  [[https://github.com/eftakharahamaddb/SkillDevelopment/blob/master/images/observable_vs_flowable.JPG|alt=octocat]]
