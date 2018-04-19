@@ -21,4 +21,4 @@
   
   Spurce can be spelized in to following forms..
   
-  ![]()
+  ![](https://github.com/eftakharahamaddb/SkillDevelopment/blob/master/images/source_specialization.JPG)
