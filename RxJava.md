@@ -23,6 +23,6 @@
   
   ![](https://github.com/eftakharahamaddb/SkillDevelopment/blob/master/images/source_specialization.JPG)
   
-  There is no model ofsunset for reactive stream..
+  There is no model of subset for reactive stream..
   
   ![](https://github.com/eftakharahamaddb/SkillDevelopment/blob/master/images/reactivestream_no_subsets.JPG)
