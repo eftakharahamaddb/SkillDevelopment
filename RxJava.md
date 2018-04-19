@@ -22,3 +22,7 @@
   Spurce can be spelized in to following forms..
   
   ![](https://github.com/eftakharahamaddb/SkillDevelopment/blob/master/images/source_specialization.JPG)
+  
+  There is no model ofsunset for reactive stream..
+  
+  ![](https://github.com/eftakharahamaddb/SkillDevelopment/blob/master/images/reactivestream_no_subsets.JPG)
