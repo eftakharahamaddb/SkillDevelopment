@@ -20,7 +20,8 @@ D - Dependency Inversion Principle
      -- use @Provides to create a method that return this object.
 	 
   2) Where do u want to inject this object?
-     -- use @Inject in the place where u want to use this and create an interface @Component that contains all th places where u will use this object.
+     -- use @Inject in the place where u want to use this and 
+		create an interface @Component that contains all th places where u will use this object.
 	 
   3) How will u construct this object ?
 	 -- create a class @Module that contains your method with @Provides in it.
@@ -28,3 +29,4 @@ D - Dependency Inversion Principle
  Fresh way of understanding is below the image of defining different term...
  
  ```
+ ![](https://github.com/eftakharahamaddb/SkillDevelopment/blob/master/images/dagger_snappet.JPG)
