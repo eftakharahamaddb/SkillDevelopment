@@ -1,4 +1,4 @@
-1) Making App with many methods and class... can cause a web like complicated pattern and will not fall into 'SOLID' pattern
+1) Making App with many methods and class... can cause a web like complicated pattern and will not fall into 'SOLID' pattern<br>
 
 S - Single Responsibility Pattern.
 O - Open-closed Principle
