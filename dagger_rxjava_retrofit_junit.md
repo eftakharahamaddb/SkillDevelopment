@@ -1,16 +1,14 @@
 1) Making App with many methods and class... can cause a web like complicated pattern and will not fall into 'SOLID' pattern<br>
 
-S - Single Responsibility Pattern.
-O - Open-closed Principle
-L - Liskov Substitution Principle
-I - Interface Segregations Principle
+S - Single Responsibility Pattern<br/>
+O - Open-closed Principle<br/>
+L - Liskov Substitution Principle<br/>
+I - Interface Segregations Principle<br/>
 D - Dependency Inversion Principle
 
 <h2>Dagger 2: Dagger is a dependency injection </h2>
 <br/> Before we go here are some term we must understand
- 
  ```
-
  @Provides
  @Inject
  @Component
@@ -27,6 +25,5 @@ D - Dependency Inversion Principle
 	 -- create a class @Module that contains your method with @Provides in it.
 
  Fresh way of understanding is below the image of defining different term...
- 
  ```
  ![](https://github.com/eftakharahamaddb/SkillDevelopment/blob/master/images/dagger_snappet.JPG)
