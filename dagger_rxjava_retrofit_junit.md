@@ -6,7 +6,7 @@ L - Liskov Substitution Principle<br/>
 I - Interface Segregations Principle<br/>
 D - Dependency Inversion Principle
 
-<h2>Dagger 2: Dagger is a dependency injection </h2>
+<h2> Dagger 2: Dagger is a dependency injection </h2>
 <br/> Before we go here are some term we must understand
 
  ```
