@@ -8,7 +8,9 @@ D - Dependency Inversion Principle
 
 <h2>Dagger 2: Dagger is a dependency injection </h2>
 <br/> Before we go here are some term we must understand
+
  ```
+ 
  @Provides
  @Inject
  @Component
@@ -25,5 +27,6 @@ D - Dependency Inversion Principle
 	 -- create a class @Module that contains your method with @Provides in it.
 
  Fresh way of understanding is below the image of defining different term...
+ 
  ```
  ![](https://github.com/eftakharahamaddb/SkillDevelopment/blob/master/images/dagger_snappet.JPG)
