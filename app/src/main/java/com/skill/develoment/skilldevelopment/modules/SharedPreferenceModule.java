@@ -7,14 +7,10 @@ import dagger.Provides;
 
 @Module
 public class SharedPreferenceModule {
-    private SharedPreference sharedPreference;
-    public SharedPreferenceModule(SharedPreference sharedPreference) {
-        this.sharedPreference = sharedPreference;
-    }
 
     @Provides
     public SharedPreference provideSharedPreference() {
-        return this.sharedPreference;
+        return null;
     }
 
 }

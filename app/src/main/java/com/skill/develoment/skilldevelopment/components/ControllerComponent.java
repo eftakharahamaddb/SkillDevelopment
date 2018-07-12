@@ -2,6 +2,7 @@ package com.skill.develoment.skilldevelopment.components;
 
 import android.app.Activity;
 
+import com.skill.develoment.skilldevelopment.android_arch.AndroidArchActivity;
 import com.skill.develoment.skilldevelopment.login_mvp_dagger2.LoginActivity;
 import com.skill.develoment.skilldevelopment.modules.ImageLoaderModules;
 import com.skill.develoment.skilldevelopment.modules.LoginModule;
@@ -23,5 +24,6 @@ import dagger.Component;
 })
 public interface ControllerComponent {
     void inject(LoginActivity activity);
+    void inject(AndroidArchActivity activity);
 }
 

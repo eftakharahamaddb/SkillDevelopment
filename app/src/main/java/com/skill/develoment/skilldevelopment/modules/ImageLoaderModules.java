@@ -10,9 +10,6 @@ public class ImageLoaderModules {
 
     private ImageLoader imageLoader;
 
-    public ImageLoaderModules(ImageLoader imageLoader) {
-        this.imageLoader = imageLoader;
-    }
 
     @Provides
     public ImageLoader imageLoader() {

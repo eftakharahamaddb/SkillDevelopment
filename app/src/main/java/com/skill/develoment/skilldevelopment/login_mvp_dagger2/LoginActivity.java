@@ -20,6 +20,8 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
 import io.reactivex.Observer;
@@ -42,11 +44,17 @@ public class LoginActivity extends AppCompatActivity implements LoginActivityMVP
     NetworkApi networkApi;
 
     //Activity Components
+    @BindView(R.id.tv_user_id)
     TextView tv_user_id;
+    @BindView(R.id.tv_password)
     TextView tv_password;
+    @BindView(R.id.et_user_id)
     EditText et_user_id;
+    @BindView(R.id.et_password)
     EditText et_password;
+    @BindView(R.id.btn_save_data)
     Button btn_save_data;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,11 +62,7 @@ public class LoginActivity extends AppCompatActivity implements LoginActivityMVP
         setContentView(R.layout.activity_login);
         SampleApp sampleApp = (SampleApp) getApplication();
         sampleApp.getControllerComponent().inject(this);
-        tv_user_id = findViewById(R.id.tv_user_id);
-        tv_password = findViewById(R.id.tv_password);
-        et_user_id = findViewById(R.id.et_user_id);
-        et_password = findViewById(R.id.et_password);
-        btn_save_data = findViewById(R.id.btn_save_data);
+        ButterKnife.bind(this);
         btn_save_data.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -66,7 +70,7 @@ public class LoginActivity extends AppCompatActivity implements LoginActivityMVP
             }
         });
 
-        Call<List<Repo>> efty1991 = networkApi.getRepoList("efty1991");
+        Call< List<Repo>> efty1991 = networkApi.getRepoList("efty1991");
         efty1991.enqueue(new Callback<List<Repo>>() {
             @Override
             public void onResponse(Call<List<Repo>> call, Response<List<Repo>> response) {

@@ -5,7 +5,8 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestJava {
+public class TestJava extends TestParent{
+    int value = 200;
     private int value1 = 10;
     int value2 = 10;
     protected int value3 = 10;
@@ -13,6 +14,15 @@ public class TestJava {
 
     interface Check {
         void please_check(Person p);
+    }
+    class Parent
+    {
+        int a=10;
+    }
+
+    class Child extends Parent
+    {
+        int a=20;
     }
 
     public int myMethodReturn() {
@@ -33,7 +43,6 @@ public class TestJava {
         public Person(int age) {
             this.age = age;
         }
-
         int age;
 
     }
@@ -41,15 +50,19 @@ public class TestJava {
 
     public static void main(String[] args) {
 
-        Check c = (p) -> {
-            System.out.print(p.age * 45);
-        };
-        List<Person> personList = new ArrayList<>();
-        personList.add(new Person(25));
-        personList.add(new Person(15));
-        personList.add(new Person(29));
-        personList.add(new Person(30));
-        personList.forEach(person -> System.out.println(person.age));
-        personList.forEach(System.out::println);
+//        Check c = (p) -> {
+//            System.out.print(p.age * 45);
+//        };
+//        List<Person> personList = new ArrayList<>();
+//        personList.add(new Person(25));
+//        personList.add(new Person(15));
+//        personList.add(new Person(29));
+//        personList.add(new Person(30));
+//        personList.forEach(person -> System.out.println(person.age));
+//        personList.forEach(System.out::println);
+
+        TestParent testParent= new TestJava();;
+//        TestJava testJava = new TestJava();
+        System.out.print("Value:"+testParent.value);
     }
 }

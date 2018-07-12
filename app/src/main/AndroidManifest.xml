@@ -14,19 +14,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login_mvp_dagger2.LoginActivity">
+        <activity android:name=".login_mvp_dagger2.LoginActivity" />
+        <activity android:name=".AppBarCordinatorActivity" />
+        <activity
+            android:name=".Drawer2Navigation"
+            android:label="@string/title_activity_drawer2_navigation"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".android_arch.AndroidArchActivity" />
+        <activity android:name=".volley_example.VolleyExample"/>
+        <activity android:name=".web_view.WebViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AppBarCordinatorActivity" />
-        <activity
-            android:name=".Drawer2Navigation"
-            android:label="@string/title_activity_drawer2_navigation"
-            android:theme="@style/AppTheme" />
-        <activity android:name=".MainActivity"></activity>
+        <service
+            android:name=".volley_soap.SoapIntentService"
+            android:exported="false" />
     </application>
 
 </manifest>

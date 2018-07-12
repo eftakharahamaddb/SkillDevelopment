@@ -22,10 +22,10 @@ public class SampleApp extends Application {
         super.onCreate();
         controllerComponent = DaggerControllerComponent
                 .builder()
-                .imageLoaderModules(new ImageLoaderModules(new ImageLoader()))
-                .sharedPreferenceModule(new SharedPreferenceModule(new SharedPreference()))
+//                .imageLoaderModules(new ImageLoaderModules())
+//                .sharedPreferenceModule(new SharedPreferenceModule())
                 .networkApiModule(new NetworkApiModule())
-                .sampleAppModule(new SampleAppModule(this))
+//                .sampleAppModule(new SampleAppModule(this))
                 .loginModule(new LoginModule())
                 .build();
     }
